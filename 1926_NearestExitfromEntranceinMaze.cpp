@@ -55,7 +55,7 @@ int main(){
         maze.push_back(tmp);
     }
     vector<int> entrance;
-    cout<<"Enter starting point value: "<<endl;
+    cout<<"Enter starting point value (row and col): "<<endl;
     for(int i=0; i<2; i++){
         int a;  cin>>a;
         entrance.push_back(a);
