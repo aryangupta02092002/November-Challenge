@@ -44,6 +44,7 @@ int calculate(string s) {
 }
 int main(){
     string s;
+    cout<<"Enter values to be calculated along with operators: "<<endl;
     getline(cin, s);
     cout<<calculate(s);
 }
