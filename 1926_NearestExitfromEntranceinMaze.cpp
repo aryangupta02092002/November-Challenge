@@ -42,8 +42,10 @@ int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
 
 int main(){
     int row, col;
+    cout<<"Enter row and col: "<<endl;
     cin>>row>>col;
     vector<vector<char>> maze;
+    cout<<"Enter the values for row and column: "<<endl;
     for(int i=0; i<row; i++){
         vector<char> tmp;
         for(int j=0; j<col; j++){
