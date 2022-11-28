@@ -26,6 +26,7 @@ class Sol{
 
 int main(){
     int n;
+    cout<<"Enter total number of matches: "<<endl;
     cin>>n;
     vector<vector<int>> matches;
     for(int i=0; i<n; i++){
