@@ -32,6 +32,7 @@ class Sol{
 
 int main(){
     int n;
+    cout<<"Enter size of array: "<<endl;
     cin>>n;
     int a[n];
     for(int i=0; i<n; i++){
