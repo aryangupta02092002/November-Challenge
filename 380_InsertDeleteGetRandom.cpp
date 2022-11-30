@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class RandomizedSet {
 private:
   vector<int> v;
@@ -39,3 +42,14 @@ public:
  * bool param_2 = obj->remove(val);
  * int param_3 = obj->getRandom();
  */
+int main(){
+    RandomizedSet s;
+    bool i1 = s.insert(2);
+    bool i2 = s.insert(3);
+    // bool i3 = s.insert(2);
+    // bool i4 = s.insert(7);
+
+    cout<<"Get random "<<s.getRandom()<<endl;
+    bool r1 = s.remove(2);
+    cout<<"Get random "<<s.getRandom()<<endl;
+}
